@@ -139,8 +139,8 @@ export default function ProductGallery() {
                       textTransform: 'uppercase',
                       letterSpacing: '0.5px'
                     }}
-                    onMouseEnter={(e) => e.target.style.backgroundColor = '#B68A5A'}
-                    onMouseLeave={(e) => e.target.style.backgroundColor = '#234034'}
+                    onMouseEnter={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#B68A5A'}
+                    onMouseLeave={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#234034'}
                   >
                     View
                   </button>
@@ -164,8 +164,8 @@ export default function ProductGallery() {
               textTransform: 'uppercase',
               letterSpacing: '1px'
             }}
-            onMouseEnter={(e) => e.target.style.backgroundColor = '#B68A5A'}
-            onMouseLeave={(e) => e.target.style.backgroundColor = '#234034'}
+            onMouseEnter={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#B68A5A'}
+            onMouseLeave={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#234034'}
           >
             View All Products
           </button>

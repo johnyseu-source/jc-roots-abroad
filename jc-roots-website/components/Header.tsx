@@ -29,10 +29,10 @@ export default function Header() {
         {/* Navigation */}
         <div className="flex items-center gap-8">
           <nav className="hidden md:flex gap-8">
-            <a href="#" className="text-sm font-medium transition" style={{color: '#DCC982', borderBottom: '2px solid transparent'}} onMouseEnter={(e) => e.target.style.borderBottom = '2px solid #B68A5A'} onMouseLeave={(e) => e.target.style.borderBottom = '2px solid transparent'}>Shop</a>
-            <a href="#" className="text-sm font-medium transition" style={{color: '#DCC982', borderBottom: '2px solid transparent'}} onMouseEnter={(e) => e.target.style.borderBottom = '2px solid #B68A5A'} onMouseLeave={(e) => e.target.style.borderBottom = '2px solid transparent'}>Design</a>
-            <a href="#" className="text-sm font-medium transition" style={{color: '#DCC982', borderBottom: '2px solid transparent'}} onMouseEnter={(e) => e.target.style.borderBottom = '2px solid #B68A5A'} onMouseLeave={(e) => e.target.style.borderBottom = '2px solid transparent'}>Business</a>
-            <a href="#" className="text-sm font-medium transition" style={{color: '#DCC982', borderBottom: '2px solid transparent'}} onMouseEnter={(e) => e.target.style.borderBottom = '2px solid #B68A5A'} onMouseLeave={(e) => e.target.style.borderBottom = '2px solid transparent'}>About</a>
+            <a href="#" className="text-sm font-medium transition" style={{color: '#DCC982', borderBottom: '2px solid transparent'}} onMouseEnter={(e) => (e.target as HTMLAnchorElement).style.borderBottom = '2px solid #B68A5A'} onMouseLeave={(e) => (e.target as HTMLAnchorElement).style.borderBottom = '2px solid transparent'}>Shop</a>
+            <a href="#" className="text-sm font-medium transition" style={{color: '#DCC982', borderBottom: '2px solid transparent'}} onMouseEnter={(e) => (e.target as HTMLAnchorElement).style.borderBottom = '2px solid #B68A5A'} onMouseLeave={(e) => (e.target as HTMLAnchorElement).style.borderBottom = '2px solid transparent'}>Design</a>
+            <a href="#" className="text-sm font-medium transition" style={{color: '#DCC982', borderBottom: '2px solid transparent'}} onMouseEnter={(e) => (e.target as HTMLAnchorElement).style.borderBottom = '2px solid #B68A5A'} onMouseLeave={(e) => (e.target as HTMLAnchorElement).style.borderBottom = '2px solid transparent'}>Business</a>
+            <a href="#" className="text-sm font-medium transition" style={{color: '#DCC982', borderBottom: '2px solid transparent'}} onMouseEnter={(e) => (e.target as HTMLAnchorElement).style.borderBottom = '2px solid #B68A5A'} onMouseLeave={(e) => (e.target as HTMLAnchorElement).style.borderBottom = '2px solid transparent'}>About</a>
           </nav>
 
           {/* Instagram Link */}
