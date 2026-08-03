@@ -17,7 +17,6 @@ export default function LogoShowcase() {
             fontSize: '48px',
             color: '#F8F6F1',
             textAlign: 'center',
-            marginBottom: '60px',
             margin: 0,
             marginBottom: '60px'
           }}

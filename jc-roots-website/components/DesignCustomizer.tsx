@@ -27,7 +27,7 @@ export default function DesignCustomizer() {
             <p className="text-lg mb-8 leading-relaxed" style={{color: '#DCC982'}}>
               With our live preview, you know exactly what you're getting—meaningful, personal, and entirely yours.
             </p>
-            <button className="px-9 py-3 font-semibold transition rounded" style={{backgroundColor: '#B68A5A', color: '#234034', fontSize: '16px'}} onMouseEnter={(e) => e.target.style.backgroundColor = '#DCC982'} onMouseLeave={(e) => e.target.style.backgroundColor = '#B68A5A'}>
+            <button className="px-9 py-3 font-semibold transition rounded" style={{backgroundColor: '#B68A5A', color: '#234034', fontSize: '16px'}} onMouseEnter={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#DCC982'} onMouseLeave={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#B68A5A'}>
               Start Designing
             </button>
           </div>

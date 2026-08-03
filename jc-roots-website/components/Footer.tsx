@@ -25,10 +25,10 @@ export default function Footer() {
               Explore
             </h4>
             <ul style={{listStyle: 'none', padding: 0, margin: 0}}>
-              <li style={{marginBottom: '12px'}}><a href="#" className="text-sm transition" style={{color: '#DCC982', textDecoration: 'none'}} onMouseEnter={(e) => e.target.style.color = '#B68A5A'} onMouseLeave={(e) => e.target.style.color = '#DCC982'}>Shop</a></li>
-              <li style={{marginBottom: '12px'}}><a href="#" className="text-sm transition" style={{color: '#DCC982', textDecoration: 'none'}} onMouseEnter={(e) => e.target.style.color = '#B68A5A'} onMouseLeave={(e) => e.target.style.color = '#DCC982'}>Design Your Own</a></li>
-              <li style={{marginBottom: '12px'}}><a href="#" className="text-sm transition" style={{color: '#DCC982', textDecoration: 'none'}} onMouseEnter={(e) => e.target.style.color = '#B68A5A'} onMouseLeave={(e) => e.target.style.color = '#DCC982'}>For Businesses</a></li>
-              <li><a href="#" className="text-sm transition" style={{color: '#DCC982', textDecoration: 'none'}} onMouseEnter={(e) => e.target.style.color = '#B68A5A'} onMouseLeave={(e) => e.target.style.color = '#DCC982'}>About Us</a></li>
+              <li style={{marginBottom: '12px'}}><a href="#" className="text-sm transition" style={{color: '#DCC982', textDecoration: 'none'}} onMouseEnter={(e) => (e.target as HTMLAnchorElement).style.color = '#B68A5A'} onMouseLeave={(e) => (e.target as HTMLAnchorElement).style.color = '#DCC982'}>Shop</a></li>
+              <li style={{marginBottom: '12px'}}><a href="#" className="text-sm transition" style={{color: '#DCC982', textDecoration: 'none'}} onMouseEnter={(e) => (e.target as HTMLAnchorElement).style.color = '#B68A5A'} onMouseLeave={(e) => (e.target as HTMLAnchorElement).style.color = '#DCC982'}>Design Your Own</a></li>
+              <li style={{marginBottom: '12px'}}><a href="#" className="text-sm transition" style={{color: '#DCC982', textDecoration: 'none'}} onMouseEnter={(e) => (e.target as HTMLAnchorElement).style.color = '#B68A5A'} onMouseLeave={(e) => (e.target as HTMLAnchorElement).style.color = '#DCC982'}>For Businesses</a></li>
+              <li><a href="#" className="text-sm transition" style={{color: '#DCC982', textDecoration: 'none'}} onMouseEnter={(e) => (e.target as HTMLAnchorElement).style.color = '#B68A5A'} onMouseLeave={(e) => (e.target as HTMLAnchorElement).style.color = '#DCC982'}>About Us</a></li>
             </ul>
           </div>
 

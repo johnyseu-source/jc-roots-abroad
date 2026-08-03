@@ -22,10 +22,10 @@ export default function Hero() {
         </p>
         
         <div className="flex gap-6 justify-center flex-wrap">
-          <button className="px-9 py-4 font-semibold transition rounded" style={{backgroundColor: '#B68A5A', color: '#234034', fontSize: '16px'}} onMouseEnter={(e) => e.target.style.backgroundColor = '#DCC982'} onMouseLeave={(e) => e.target.style.backgroundColor = '#B68A5A'}>
+          <button className="px-9 py-4 font-semibold transition rounded" style={{backgroundColor: '#B68A5A', color: '#234034', fontSize: '16px'}} onMouseEnter={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#DCC982'} onMouseLeave={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#B68A5A'}>
             Shop Now
           </button>
-          <button className="px-9 py-4 font-semibold transition rounded" style={{backgroundColor: 'transparent', color: '#F8F6F1', border: '2px solid #B68A5A', fontSize: '16px'}} onMouseEnter={(e) => {e.target.style.backgroundColor = '#B68A5A'; e.target.style.color = '#234034'}} onMouseLeave={(e) => {e.target.style.backgroundColor = 'transparent'; e.target.style.color = '#F8F6F1'}}>
+          <button className="px-9 py-4 font-semibold transition rounded" style={{backgroundColor: 'transparent', color: '#F8F6F1', border: '2px solid #B68A5A', fontSize: '16px'}} onMouseEnter={(e) => {(e.target as HTMLButtonElement).style.backgroundColor = '#B68A5A'; (e.target as HTMLButtonElement).style.color = '#234034'}} onMouseLeave={(e) => {(e.target as HTMLButtonElement).style.backgroundColor = 'transparent'; (e.target as HTMLButtonElement).style.color = '#F8F6F1'}}>
             Design Your Own
           </button>
         </div>

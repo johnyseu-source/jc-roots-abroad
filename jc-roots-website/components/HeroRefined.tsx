@@ -64,12 +64,12 @@ export default function HeroRefined() {
               letterSpacing: '1px'
             }}
             onMouseEnter={(e) => {
-              e.target.style.backgroundColor = '#B68A5A';
-              e.target.style.color = '#234034';
+              (e.target as HTMLButtonElement).style.backgroundColor = '#B68A5A';
+              (e.target as HTMLButtonElement).style.color = '#234034';
             }}
             onMouseLeave={(e) => {
-              e.target.style.backgroundColor = '#234034';
-              e.target.style.color = '#F8F6F1';
+              (e.target as HTMLButtonElement).style.backgroundColor = '#234034';
+              (e.target as HTMLButtonElement).style.color = '#F8F6F1';
             }}
           >
             Shop Personalised Gifts
@@ -89,12 +89,12 @@ export default function HeroRefined() {
               letterSpacing: '1px'
             }}
             onMouseEnter={(e) => {
-              e.target.style.backgroundColor = '#234034';
-              e.target.style.color = '#F8F6F1';
+              (e.target as HTMLButtonElement).style.backgroundColor = '#234034';
+              (e.target as HTMLButtonElement).style.color = '#F8F6F1';
             }}
             onMouseLeave={(e) => {
-              e.target.style.backgroundColor = 'transparent';
-              e.target.style.color = '#234034';
+              (e.target as HTMLButtonElement).style.backgroundColor = 'transparent';
+              (e.target as HTMLButtonElement).style.color = '#234034';
             }}
           >
             Custom Commission
